@@ -1,289 +1,208 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Exit HR Solutions — Ethical HR Consultancy & Career Guidance</title>
-  <meta name="description" content="Exit HR Solutions is a forward-thinking HR consultancy building an ethical, transparent, and empowered workforce through background verification, career guidance, and HR advisory." />
+  <meta name="description" content="Exit HR Solutions is a forward-thinking HR consultancy building an ethical, transparent, and empowered workforce." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/variable.css" />
-  <link rel="stylesheet" href="css/layout.css" />
-  <link rel="stylesheet" href="css/component.css" />
-  <link rel="stylesheet" href="css/animation.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
 
   <header class="site-header">
     <div class="container nav">
-      <a href="#top" class="brand">Exit<span>HR</span> Solutions</a>
+      <a href="#top" class="brand">Exit<span>HR</span></a>
       <nav class="nav-links" aria-label="Primary">
         <a href="#about">About</a>
         <a href="#vision">Vision</a>
-        <a href="#services">What We Do</a>
+        <a href="#services">Services</a>
         <a href="#why">Why Us</a>
         <a href="#contact">Contact</a>
       </nav>
-      <button class="nav-toggle" aria-label="Toggle menu">
-        <span></span><span></span><span></span>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span>
       </button>
+    </div>
+    <div class="mobile-menu" aria-hidden="true">
+      <a href="#about">About</a>
+      <a href="#vision">Vision</a>
+      <a href="#services">Services</a>
+      <a href="#why">Why Us</a>
+      <a href="#contact">Contact</a>
     </div>
   </header>
 
-  <div class="mobile-menu" aria-hidden="true">
-    <a href="#about">About</a>
-    <a href="#vision">Vision</a>
-    <a href="#services">What We Do</a>
-    <a href="#why">Why Us</a>
-    <a href="#contact">Contact</a>
-  </div>
-
   <main id="top">
 
-    <!-- HERO -->
     <section class="hero">
-      <div class="container hero-inner">
-        <span class="eyebrow">Ethical HR Consultancy</span>
-        <h1>Building a workforce founded on <em>integrity, clarity, and trust.</em></h1>
+      <div class="container">
+        <p class="eyebrow">Ethical HR Consultancy</p>
+        <h1>Building a workforce founded on integrity, clarity, and trust.</h1>
         <p class="lead">
           Exit HR Solutions partners with employees and organizations to make confident,
-          informed decisions across every stage of the employment lifecycle — from hiring
-          to transition.
+          informed decisions across every stage of the employment lifecycle.
         </p>
-        <div class="hero-actions">
-          <a href="#services" class="btn btn-primary">Explore Services <span class="arrow"></span></a>
-          <a href="#contact" class="btn btn-ghost">Get in touch</a>
-        </div>
-
-        <div class="hero-meta">
-          <div class="item"><span class="k">Ethics</span><span class="v">Our foundation</span></div>
-          <div class="item"><span class="k">Clarity</span><span class="v">In every decision</span></div>
-          <div class="item"><span class="k">Trust</span><span class="v">Across the lifecycle</span></div>
+        <div class="actions">
+          <a href="#services" class="btn">Explore Services</a>
+          <a href="#contact" class="btn btn-link">Get in touch →</a>
         </div>
       </div>
     </section>
 
-    <!-- ABOUT -->
-    <section id="about">
-      <div class="container">
-        <div class="grid-2">
-          <div class="reveal">
-            <span class="eyebrow">About Us</span>
-            <h2 class="section-title">A forward-thinking HR consultancy committed to an empowered workforce.</h2>
-            <p class="section-lede">
-              We believe the right guidance at the right time can transform careers and
-              strengthen organizations. In today's dynamic job market, employees and
-              employers face critical decisions that shape long-term success — our role is
-              to bridge that gap.
-            </p>
-          </div>
-          <div class="about-aside reveal" data-delay="2">
-            <div class="line"><span class="num">01</span><p>Forward-thinking guidance for individuals and organizations alike.</p></div>
-            <div class="line"><span class="num">02</span><p>Built on a foundation of integrity, insight, and accountability.</p></div>
-            <div class="line"><span class="num">03</span><p>Transparent practices that protect long-term mutual success.</p></div>
-            <div class="line"><span class="num">04</span><p>A trusted partner across hiring, transitions, and exits.</p></div>
-          </div>
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>A forward-thinking HR consultancy committed to an empowered workforce.</h2>
         </div>
-      </div>
-    </section>
-
-    <!-- VISION & MISSION -->
-    <section id="vision" class="vm-section">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="eyebrow">Purpose</span>
-          <h2 class="section-title">Our Vision &amp; Mission</h2>
-          <p class="section-lede">
-            Defining the principles that shape every engagement we take on.
+        <div>
+          <p class="lede">
+            We believe the right guidance at the right time can transform careers and
+            strengthen organizations. In today's dynamic job market, employees and
+            employers face critical decisions that shape long-term success — our role is
+            to bridge that gap.
           </p>
+          <ul class="list">
+            <li>Forward-thinking guidance for individuals and organizations alike.</li>
+            <li>Built on a foundation of integrity, insight, and accountability.</li>
+            <li>Transparent practices that protect long-term mutual success.</li>
+            <li>A trusted partner across hiring, transitions, and exits.</li>
+          </ul>
         </div>
+      </div>
+    </section>
 
-        <div class="grid-2">
-          <article class="vm-card reveal">
-            <span class="tag">Our Vision</span>
-            <h3>An ethical workforce empowered to choose with purpose.</h3>
+    <section id="vision" class="section bordered">
+      <div class="container">
+        <p class="eyebrow">Purpose</p>
+        <h2>Vision &amp; Mission</h2>
+
+        <div class="grid-2 mt">
+          <article class="block">
+            <h3>Vision</h3>
             <p>
               To create an ethical workforce by empowering individuals to find the right
               job opportunities, switch professions confidently, and transition between
               organizations with clarity and purpose.
             </p>
-            <span class="glyph" aria-hidden="true">&#8220;</span>
           </article>
-
-          <article class="vm-card reveal" data-delay="2">
-            <span class="tag">Our Mission</span>
-            <h3>A trusted partner between the workforce and organizations.</h3>
-            <ul>
+          <article class="block">
+            <h3>Mission</h3>
+            <ul class="list">
               <li>Conducting reliable and thorough employee background verification before onboarding.</li>
               <li>Supporting organizations in making informed hiring decisions.</li>
               <li>Guiding employees in making the right choices when planning career moves or exiting jobs.</li>
               <li>Promoting transparency, trust, and ethical practices across all stages of employment.</li>
             </ul>
-            <span class="glyph" aria-hidden="true">&#8220;</span>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- WHAT WE DO -->
-    <section id="services">
+    <section id="services" class="section">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="eyebrow">What We Do</span>
-          <h2 class="section-title">Enhancing trust and decision-making across the employment lifecycle.</h2>
-          <p class="section-lede">
-            Every service we offer is designed to create value for both employees and
-            employers — built on ethics, confidentiality, and professionalism.
-          </p>
-        </div>
+        <p class="eyebrow">Services</p>
+        <h2>Enhancing trust and decision-making across the employment lifecycle.</h2>
 
-        <div class="grid-cards">
-          <article class="service reveal">
-            <span class="num">01 / Verification</span>
+        <div class="grid-3 mt">
+          <article class="card">
+            <span class="num">01</span>
             <h3>Background Verification</h3>
             <p>Ensuring authenticity and reliability before hiring, with thorough and discreet checks.</p>
           </article>
-
-          <article class="service reveal" data-delay="1">
-            <span class="num">02 / Transition</span>
+          <article class="card">
+            <span class="num">02</span>
             <h3>Career Transition Guidance</h3>
             <p>Helping individuals navigate job changes and career shifts with strategic clarity.</p>
           </article>
-
-          <article class="service reveal" data-delay="2">
-            <span class="num">03 / Exit</span>
+          <article class="card">
+            <span class="num">03</span>
             <h3>Pre-Exit Consulting</h3>
             <p>Assisting employees in making informed, considered decisions before quitting.</p>
           </article>
-
-          <article class="service reveal" data-delay="3">
-            <span class="num">04 / Advisory</span>
+          <article class="card">
+            <span class="num">04</span>
             <h3>HR Advisory Support</h3>
             <p>Enabling organizations to maintain ethical and compliant workforce practices.</p>
           </article>
-
-          <article class="service reveal" data-delay="4">
-            <span class="num">05 / Insight</span>
+          <article class="card">
+            <span class="num">05</span>
             <h3>Organization Grading</h3>
             <p>Evaluating organizations on culture, growth, and remuneration to power transparent career decisions.</p>
           </article>
-
-          <article class="service reveal" data-delay="5">
-            <span class="num">06 / Trust</span>
+          <article class="card">
+            <span class="num">06</span>
             <h3>Confidential by Design</h3>
-            <p>Operating with a strong foundation of ethics, confidentiality, and professionalism in every engagement.</p>
+            <p>Operating with a strong foundation of ethics, confidentiality, and professionalism.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- WHY US -->
-    <section id="why" class="why-section">
+    <section id="why" class="section bordered">
       <div class="container">
-        <div class="section-head reveal">
-          <span class="eyebrow">Why Choose Us</span>
-          <h2 class="section-title">Partnered for the long view, not the short transaction.</h2>
-          <p class="section-lede">
-            From recruitment to performance, we bring practical, ethical expertise to
-            every stage of the employment journey.
-          </p>
-        </div>
+        <p class="eyebrow">Why Us</p>
+        <h2>Partnered for the long view, not the short transaction.</h2>
 
-        <div class="why-grid">
-          <div class="why-item reveal">
-            <div class="icon">I</div>
-            <h3>Ethical HR Practices</h3>
-            <p>Integrity, transparency, and fairness across every HR process we touch.</p>
-          </div>
-          <div class="why-item reveal" data-delay="1">
-            <div class="icon">II</div>
-            <h3>Comprehensive Recruitment</h3>
-            <p>Helping organizations attract and hire the right talent efficiently.</p>
-          </div>
-          <div class="why-item reveal" data-delay="2">
-            <div class="icon">III</div>
-            <h3>Onboarding &amp; Offboarding</h3>
-            <p>Smooth, structured employee transitions from day one to final day.</p>
-          </div>
-          <div class="why-item reveal" data-delay="3">
-            <div class="icon">IV</div>
-            <h3>Workplace Development</h3>
-            <p>Helping create attractive, positive, and productive work environments.</p>
-          </div>
-          <div class="why-item reveal" data-delay="4">
-            <div class="icon">V</div>
-            <h3>Performance Management</h3>
-            <p>Practical tools and guidance to evaluate and improve employee performance.</p>
-          </div>
-          <div class="why-item reveal" data-delay="5">
-            <div class="icon">VI</div>
-            <h3>Practical Career Guidance</h3>
-            <p>Real-world insights that help individuals make informed career decisions.</p>
-          </div>
+        <div class="grid-3 mt">
+          <div class="why-item"><h3>Ethical HR Practices</h3><p>Integrity, transparency, and fairness across every HR process we touch.</p></div>
+          <div class="why-item"><h3>Comprehensive Recruitment</h3><p>Helping organizations attract and hire the right talent efficiently.</p></div>
+          <div class="why-item"><h3>Onboarding &amp; Offboarding</h3><p>Smooth, structured employee transitions from day one to final day.</p></div>
+          <div class="why-item"><h3>Workplace Development</h3><p>Helping create attractive, positive, and productive work environments.</p></div>
+          <div class="why-item"><h3>Performance Management</h3><p>Practical tools and guidance to evaluate and improve employee performance.</p></div>
+          <div class="why-item"><h3>Practical Career Guidance</h3><p>Real-world insights that help individuals make informed career decisions.</p></div>
         </div>
       </div>
     </section>
 
-    <!-- CTA -->
-    <section id="contact" class="cta-section">
-      <div class="container cta-inner reveal">
-        <span class="eyebrow">Get in Touch</span>
+    <section id="contact" class="section cta">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
         <h2>Let's build a workforce founded on trust.</h2>
-        <p>
+        <p class="lede">
           Whether you're an organization seeking reliable hiring partners or a
           professional planning your next move — we'd be glad to talk.
         </p>
-        <a href="mailto:hello@exithrsolutions.com" class="btn btn-primary">
-          hello@exithrsolutions.com <span class="arrow"></span>
-        </a>
+        <a href="mailto:hello@exithrsolutions.com" class="btn">hello@exithrsolutions.com →</a>
       </div>
     </section>
 
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div>
-          <a href="#top" class="brand">Exit<span style="color:var(--c-gold)">HR</span> Solutions</a>
-          <p style="max-width:380px; color:rgba(255,255,255,.6); font-size:.95rem;">
-            A forward-thinking HR consultancy committed to ethical, transparent, and
-            empowered workforce practices.
-          </p>
-        </div>
-        <div>
-          <h4>Explore</h4>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#vision">Vision &amp; Mission</a></li>
-            <li><a href="#services">What We Do</a></li>
-            <li><a href="#why">Why Us</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Contact</h4>
-          <ul>
-            <li><a href="mailto:hello@exithrsolutions.com">hello@exithrsolutions.com</a></li>
-            <li>Mon — Fri, 9:00 — 18:00</li>
-          </ul>
-        </div>
+    <div class="container footer-grid">
+      <div>
+        <a href="#top" class="brand">Exit<span>HR</span></a>
+        <p>A forward-thinking HR consultancy committed to ethical, transparent, and empowered workforce practices.</p>
       </div>
-      <div class="footer-base">
-        <span>&copy; <span id="year"></span> Exit HR Solutions. All rights reserved.</span>
-        <span>Crafted with care.</span>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#vision">Vision</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why">Why Us</a></li>
+        </ul>
       </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@exithrsolutions.com">hello@exithrsolutions.com</a></li>
+          <li>Mon — Fri, 9:00 — 18:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-base">
+      <span>&copy; <span id="year"></span> Exit HR Solutions</span>
+      <span>All rights reserved.</span>
     </div>
   </footer>
 
   <script src="js/main.js"></script>
-  <script src="js/nav.js"></script>
-  <script src="js/animation.js"></script>
-  <script src="js/cursor.js"></script>
-  <script src="js/counter.js"></script>
-  <script src="js/testimonials.js"></script>
 </body>
 </html>
