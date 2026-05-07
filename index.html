@@ -29,6 +29,7 @@
       </button>
     </div>
     <div class="mobile-menu" aria-hidden="true">
+      
       <a href="#about">About</a>
       <a href="#vision">Vision</a>
       <a href="#services">Services</a>
@@ -160,15 +161,72 @@
       </div>
     </section>
 
-    <section id="contact" class="section cta">
-      <div class="container">
-        <p class="eyebrow">Contact</p>
-        <h2>Let's build a workforce founded on trust.</h2>
-        <p class="lede">
-          Whether you're an organization seeking reliable hiring partners or a
-          professional planning your next move — we'd be glad to talk.
-        </p>
-        <a href="mailto:hello@exithrsolutions.com" class="btn">hello@exithrsolutions.com →</a>
+    <section id="contact" class="section contact-combined">
+      <div class="container contact-layout">
+
+        <div class="contact-info">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's build a workforce founded on trust.</h2>
+          <p class="lede">
+            Whether you're an organization seeking reliable hiring partners or a
+            professional planning your next move — we'd be glad to talk.
+          </p>
+          <dl class="contact-details">
+            <div class="contact-row">
+              <dt>Email</dt>
+              <dd><a href="mailto:hrd@exitsolutions.com">hrd@exitsolutions.com</a></dd>
+            </div>
+            <div class="contact-row">
+              <dt>Phone</dt>
+              <dd><a href="tel:+919292009117">+91 92920 09117</a></dd>
+            </div>
+            <div class="contact-row">
+              <dt>Office</dt>
+              <dd>Ground Floor, Hilite Business Park · Calicut · Kerala</dd>
+            </div>
+            <div class="contact-row">
+              <dt>Hours</dt>
+              <dd>Mon–Fri, 9am – 6pm</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="contact-form-wrap">
+          <p class="eyebrow">Send a Message</p>
+          <form class="contact-form" name="contact" method="POST" data-netlify="true" onsubmit="return false;">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first_name" placeholder="Alex" required>
+              </div>
+              <div class="form-field">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last_name" placeholder="Thomas" required>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="alex@yourcompany.com" required>
+            </div>
+            <div class="form-field">
+              <label for="service">Service Interest</label>
+              <select id="service" name="service">
+                <option value="" disabled selected>Select a service…</option>
+                <option>Recruitment &amp; Talent Acquisition</option>
+                <option>HR Consulting</option>
+                <option>Payroll &amp; Compliance</option>
+                <option>Leadership Development</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="message">Tell Us About Your Project</label>
+              <textarea id="message" name="message" rows="5" placeholder="Share your goals, timeline, and any context that would help us…" required></textarea>
+            </div>
+            <button type="submit" class="form-submit">Send Enquiry</button>
+          </form>
+        </div>
+
       </div>
     </section>
 
@@ -192,7 +250,9 @@
       <div>
         <h4>Contact</h4>
         <ul>
-          <li><a href="mailto:hello@exithrsolutions.com">hello@exithrsolutions.com</a></li>
+          <li><a href="mailto:hrd@exitsolutions.com">hrd@exitsolutions.com</a></li>
+          <li><a href="tel:+919292009117">+91 92920 09117</a></li>
+          <li>Ground Floor, Hilite Business Park · Calicut · Kerala</li>
           <li>Mon — Fri, 9:00 — 18:00</li>
         </ul>
       </div>
